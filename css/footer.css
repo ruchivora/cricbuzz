@@ -1,0 +1,113 @@
+.foot{margin:0% 0% 0% 0%;
+	  border: ;
+	  background-color: #222;
+	  height: 300px;
+	  margin-top: -30px;
+	 }
+
+.gather{margin: 2%;
+		color: white;
+		
+		}
+
+.company{float: right;
+		 padding: 0.5% 0% 0% 0%;
+		 border: ;
+		 color: white;
+		 width:20%;
+		 margin-top: 1%;
+		 }
+
+.follow_us_on{float: right;
+			  margin-right: 3%;
+			  margin-top: 1%;
+			  border: ;
+			  color: white;
+			  width: 18%;
+			  padding: 0.5% 0% 0% 0%;
+			}
+
+.mobile_site{float: right;
+             border: ;
+             color: white;
+             margin-left: 1%;
+             margin-right: 3%;
+             margin-top: 1%;
+             width: 20%;
+             padding: 0.5% 0% 0% 0%;
+             }
+
+.common_foot_head{font-size: 16px;
+				  font-weight: bold;
+				  }
+
+.logo_foot{border: ;
+			width: 10%;
+			padding:1% 1% 0.5% 1%;
+			margin-left: 14%;
+			margin-top: ;
+			}
+
+.foot_logo{margin-top: 1%;}
+
+
+/*mobile element*/
+.mobile_element,.follow_us_element{padding-top: 7%;}
+
+.extra_pad{padding-top:8%}
+
+.mobile_element_title,.follow_us_title{font-size: 15px;
+					  line-height: 1.5;
+					  }
+
+.mobile_element_img{margin-bottom: -2px;
+					padding-right: 2%;
+					}
+
+.follow_us_img{margin-bottom: -6px;
+			   padding-right: 2%;
+			   }
+
+.company_element{font-size: 15px;
+				 line-height: 2.5;
+				 padding-top: 6%;
+				 }
+
+@media screen and (min-width: 768px) and (max-width:1024px)
+{
+	
+}
+
+@media screen and (min-width: 480px) and (max-width:768px)
+{
+	.company{display: none;}
+
+	.follow_us_on{width: 30%;}
+
+	.mobile_site{width: 30%;}
+
+	.logo_foot{margin-left: 5%;}
+
+}
+
+@media only screen and (min-width: 315px) and (max-width:480px)
+{
+	.company{display: none;}
+
+	.follow_us_on{width: 35%;
+				  margin-top: 4%;
+				 }
+
+	.mobile_site{width: 35%;
+				 margin-top: 4%;
+				}
+
+	.logo_foot{margin-left: -10px;
+				width:20% }
+
+	.foot_logo{width: 100%;}
+
+	.common_foot_head{font-size: 13px;
+				  	  font-weight: bold;
+				     }
+}
